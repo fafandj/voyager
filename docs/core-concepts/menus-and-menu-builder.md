@@ -17,6 +17,11 @@ After creating and configuring your menu, you can easily implement that menu in 
 ```php
 menu('main');
 ```
+or 
+
+```php
+{{ menu('main') }}
+```
 
 This will output your menu in an unstyled unordered list. If you do use bootstrap to stylize your web app you can pass a second argument to the menu display method telling it that you want to stylize the menu with bootstrap styles like so:
 
